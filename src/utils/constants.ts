@@ -48,13 +48,12 @@ export const END_TILE_CONFIGURATION = {
 // export const PATH_TILE_STYLE = TILE_STYLE + " bg-[#5c71da] "
 
 export const TILE_STYLE =
-  " w-[22px] h-[22px] border-t-2 border-r-2 bg-[#3b2d52] border-[#160f1d] transition ease-in-out  duration-200 hover:bg-[#cc7f66]";
-export const Tile_Style_Second = "hover:bg-[#cc7f66] w-[22px] h-[22px] border-t-2 border-r-2 bg-[#3b2d52] border-[#160f1d] "
-export const TRAVERSED_TILE_STYLE = Tile_Style_Second + " bg-[#48368f]";
-export const START_TILE_STYLE = Tile_Style_Second + " bg-[#7084e9]";
-export const END_TILE_STYLE = Tile_Style_Second + " bg-[#d39246]";
-export const WALL_TILE_STYLE = Tile_Style_Second + " bg-[#8e3c41]";
-export const PATH_TILE_STYLE = Tile_Style_Second + " bg-[#5c71da]";
+  "w-[22px] h-[22px] hover:bg-[#cc7f66] border-t-2 border-r-2 border-[#160f1d] bg-[#3b2d52]";
+export const TRAVERSED_TILE_STYLE = TILE_STYLE + " bg-[#48368f]";
+export const START_TILE_STYLE = TILE_STYLE + " bg-[#7084e9]";
+export const END_TILE_STYLE = TILE_STYLE + " bg-[#d39246]";
+export const WALL_TILE_STYLE = TILE_STYLE + " bg-[#8e3c41]";
+export const PATH_TILE_STYLE = TILE_STYLE + " bg-[#5c71da]";
 
 export const MAZES: MazeSelectType[] = [
   { name: "No Maze", value: "NONE" },
