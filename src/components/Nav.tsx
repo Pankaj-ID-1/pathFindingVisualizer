@@ -42,7 +42,7 @@ export function Nav({
       resetGrid({ grid, startTile, endTile });
       return;
     }
-
+    resetGrid({ grid, startTile, endTile });
     setMaze(maze);
     setIsDisabled(true);
     runMazeAlgorithm({
@@ -85,7 +85,7 @@ export function Nav({
   };
 
   return (
-    <div className="flex  bg-[rgba(255,255,255,0.15)] p-5 rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg items-center m-2 justify-center min-h-[4.5rem] sm:px-5 px-0">
+    <div className="flex  bg-[rgba(255,255,255,0.15)] p-5 rounded-xl bg-opacity-60 backdrop-filter backdrop-blur-lg items-center m-2 justify-center ">
       <div className="flex items-center lg:justify-between justify-center w-full sm:w-[52rem]">
         <h1 className="lg:flex hidden w-[40%] text-2xl pl-1 color-black">
           Pathfinding Visualizer
@@ -117,14 +117,14 @@ export function Nav({
             onChange={(e) => {
               setSpeed(parseInt(e.target.value) as SpeedType);
             }}
-            
+
           />
           <PlayButton
             isDisabled={isDisabled}
             isGraphVisualized={isGraphVisualized}
             handlerRunVisualizer={handlerRunVisualizer}
           />
-          
+
         </div>
       </div>
     </div>
