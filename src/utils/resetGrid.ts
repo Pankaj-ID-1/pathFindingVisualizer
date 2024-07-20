@@ -29,6 +29,7 @@ export const resetGrid = ({
                 if (tile.col === 0) {
                     tileElement?.classList.add("border-l");
                 }
+                
             }
         }
     }
