@@ -13,7 +13,7 @@
 <img width="20%" height="20%" alt="Tailwind CSS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png?20230715030042" width="350" height="70" style="visibility:visible;max-width:100">
 </h1>
 
-# Brief About Algorithm
+# Brief About Algorithms
 ## Path Finding Algorithms
 ### Breadth First Search
 * Breadth First Search explores equally in all directions.
